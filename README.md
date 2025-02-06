@@ -21,7 +21,7 @@ Built to quickly identify missing security headers that could expose web applica
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/security-header-checker.git
+git clone https://github.com/Harsimar2000/security-header-checker.git
 cd security-header-checker
 ```
 
