@@ -21,20 +21,20 @@ Built to quickly identify missing security headers that could expose web applica
 1. **Clone the repository**
 
 ```bash
-   git clone https://github.com/yourusername/security-header-checker.git
-   cd security-header-checker
+git clone https://github.com/yourusername/security-header-checker.git
+cd security-header-checker
 ```
 
 2. **Install Dependencies**
 
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 2. **Configure Environments**
 
 ```bash
-   cp .env.example .env
+cp .env.example .env
 ```
 
 Edit .env with your PostgreSQL credentials:
@@ -49,5 +49,5 @@ DB_PORT=5432
 Check a single website
 
 ```bash
-    python3 security_header_checker.py https://example.com
+python3 security_header_checker.py https://example.com
 ```
