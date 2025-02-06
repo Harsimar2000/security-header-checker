@@ -49,5 +49,5 @@ DB_PORT=5432
 Check a single website
 
 ```bash
-    python security_header_checker.py https://example.com
+    python3 security_header_checker.py https://example.com
 ```
