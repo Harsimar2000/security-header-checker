@@ -38,16 +38,19 @@ cp .env.example .env
 ```
 
 Edit .env with your PostgreSQL credentials:
+
+```bash
 DB_NAME=security_headers
 DB_USER=your_username
 DB_PASSWORD=your_password
 DB_HOST=localhost
 DB_PORT=5432
+```
 
 ## Usage
 
 Check a single website
 
 ```bash
-python3 security_header_checker.py https://example.com
+python3 security_headers_checker.py https://example.com
 ```
